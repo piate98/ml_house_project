@@ -2,6 +2,7 @@
 
 
 A full-stack machine learning web application that estimates property prices in Bangalore using square footage, number of bedrooms, bathrooms, and location.
+link: http://ec2-13-51-176-174.eu-north-1.compute.amazonaws.com/
 
 ![Frontend Preview](Frontend.jpeg)
 
