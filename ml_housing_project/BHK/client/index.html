@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/app.js"></script>
+
+</head>
+<body>
+    <section class="bg">
+        <section class="section-one padding">
+            <div class="container shadow ">
+                <div class="row">
+                    <div class="col lg intro">
+                        <h2>
+                            House Price Prediction
+                        </h2>
+                        <p>an insight before the purchase.... </p>
+                        
+        
+                    </div>
+                    <div class="col">
+                        <img src="images/house.png" alt="housing prediction">
+        
+                        
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+        <section class="section-two padding">
+            <div class="container shadow">
+                <form action="">
+                    <div class="right">
+                        <h3>Area (Sqr. Feet)</h3>
+                        <input class="area"  type="text" id="uiSqft" class="floatLabel" name="Squareft" value="1000">
+                    </div>
+                    <div>
+                        <h3>No. of bedrooms</h3>
+                        <div class="switch-field">
+                            <input type="radio" id="radio-bhk-1" name="uiBHK" value="1"/>
+                            <label for="radio-bhk-1">1</label>
+                            <input type="radio" id="radio-bhk-2" name="uiBHK" value="2" checked/>
+                            <label for="radio-bhk-2">2</label>
+                            <input type="radio" id="radio-bhk-3" name="uiBHK" value="3"/>
+                            <label for="radio-bhk-3">3</label>
+                            <input type="radio" id="radio-bhk-4" name="uiBHK" value="4"/>
+                            <label for="radio-bhk-4">4</label>
+                            <input type="radio" id="radio-bhk-5" name="uiBHK" value="5"/>
+                            <label for="radio-bhk-5">5</label>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Bath</h3>
+                        <div class="switch-field">
+                            <input type="radio" id="radio-bath-1" name="uiBathrooms" value="1"/>
+                            <label for="radio-bath-1">1</label>
+                            <input type="radio" id="radio-bath-2" name="uiBathrooms" value="2" checked/>
+                            <label for="radio-bath-2">2</label>
+                            <input type="radio" id="radio-bath-3" name="uiBathrooms" value="3"/>
+                            <label for="radio-bath-3">3</label>
+                            <input type="radio" id="radio-bath-4" name="uiBathrooms" value="4"/>
+                            <label for="radio-bath-4">4</label>
+                            <input type="radio" id="radio-bath-5" name="uiBathrooms" value="5"/>
+                            <label for="radio-bath-5">5</label>
+                        </div>
+                    </div>
+                    <div>
+                        <h3>Location</h3>
+                        <select class="location" name="" id="uiLocations">
+                            <option value="" disabled="disabled" selected="selected">Choose a Location</option>
+                            <option>Electronic City</option>
+                            <option>Rajaji Nagar</option>
+                        </select>
+                    </div>
+                    
+                    
+                </form>
+            </div>
+        </section>
+        <section class="section-three padding">
+            <div class="container shadow">
+                <div class="summary">
+                    <button class="submit" onclick="onClickedEstimatePrice()" type="button">Estimate Price</button>
+                    <div id="uiEstimatedPrice" class="result">	<p></p> </div>
+                </div>
+            </div>
+        </section>
+
+    </section>
+    
+</body>
+</html>

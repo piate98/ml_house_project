@@ -1,0 +1,216 @@
+*,*::before,*::after{
+    box-sizing:border-box;
+
+}
+
+
+body{
+    margin:0;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    color:#222C2A;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+img{
+    max-width: 100%;
+    border-radius: 0.5rem;
+}
+
+h1,h2{
+    margin-top: 0;
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    color: #824936;
+    
+}
+
+h3{
+    font-family: 'Playfair Dislay' ,serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1rem;
+    color:#824936
+}
+
+p{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1rem;
+
+}
+.padding{
+    padding: 2rem;
+}
+
+.bg{
+    background-color: bisque;
+}
+
+.container{
+    width: 85%;
+    margin:0 auto;
+    background-color: white;
+    padding: 1rem;
+    max-width: 1000px;
+    border: #824936 solid 2px;
+    
+}
+
+
+
+.shadow{
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 1rem;    
+}
+
+.intro{
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+form{
+    text-align: center;
+}
+
+.summary{
+    text-align: center;
+}
+
+
+/*section two special*/
+.switch-field {
+	display: flex;
+	margin-bottom: 36px;
+	overflow: hidden;
+    justify-content: center;
+    
+}
+
+.switch-field input {
+	position: absolute !important;
+	clip: rect(0, 0, 0, 0);
+	height: 1px;
+	width: 1px;
+	border: 0;
+	overflow: hidden;
+    
+    
+}
+
+.switch-field label {
+	background-color: white;
+	color: rgba(0, 0, 0, 0.6);
+	font-size: 14px;
+	line-height: 1;
+	text-align: center;
+	padding: 8px 10px;
+	margin-right: 1px;
+	border: 1px solid #824936;
+	transition: all 0.1s ease-in-out;
+    border-radius: 50%;
+}
+
+.switch-field label:hover {
+	cursor: pointer;
+}
+
+.switch-field input:checked + label {
+	background-color:  bisque;
+	box-shadow: none;
+}
+
+.location{
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    border:  #824936 solid 2px;
+    max-width: 60%;
+
+}
+.area{
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    border: #824936 solid 2px;
+
+}
+
+.result{
+    border:  #824936 solid 2px;
+    margin: 0 auto;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    width: 70%;
+    
+    
+    
+
+}
+
+button{
+    padding: 0.7rem 1.5rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    border: 0;
+    background-color:bisque ;
+    
+}
+
+button:hover {
+    opacity: 0.3;
+    border: rgb(179, 113, 33) solid 2px;
+    
+    
+}
+.submit{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+/*
+#824936
+#fdeed9
+*/
+#uiEstimatedPrice{
+    font-size: 1rem;
+}
+
+
+@media (min-width:800px) {
+    .row{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .col{
+        width: 100%;
+        
+    }
+
+    img{
+        height: 100%;
+        border-radius: 0.5rem;
+    }
+
+    .intro{
+        padding: 2rem;
+    }
+
+  
+
+    h2{
+        font-size: 3rem;
+    }
+
+   
+
+
+   
+
+
+
+    
+
+
+}
