@@ -25,7 +25,7 @@ This project aims to give users an estimated property price in Bangalore based o
 
 The dataset initially had various inconsistencies and needed extensive cleaning:
 
-- **Location Normalization**: Locations were inconsistent (e.g., "Whitefield", " whitefield", "White field"). We normalized them and grouped rare locations as "other".
+- **Location Normalization**: Locations were inconsistent  We normalized them and grouped rare locations as "other".
 - **Outlier Removal**:
   - Properties with abnormally high price per square foot were dropped.
   - Listings where the number of bathrooms exceeded bedrooms by 2+ were filtered out.
